@@ -1,0 +1,66 @@
+/* CSS Document */
+* {
+	padding:0px;
+	margin:0px;
+	}
+
+body {
+	background-image:url(img/manzara.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+	background-attachment:fixed;
+	background-size:cover;
+	}
+#wrapper {
+	width:870px;
+	height:694px;
+	background-color:#000000;
+	margin:auto;
+	}
+#tarali-alan {
+	background-image:url(../img/tarali-alan.jpg);
+	background-repeat:repeat-x;
+	width:870px;
+	height:30px;
+	position:absolute;
+	z-index:1;
+	}
+#wrapper-2 {
+	margin-top:6px;
+	width:870px;
+	height:611px;
+	background-color:#FFF;
+	
+	}
+#logo {
+	position:absolute;
+	z-index:1;
+	margin:25px 0px 0px 25px;
+	}
+#border {
+	width:820px;
+	border-bottom:dashed #e2e2e2 2px;
+	margin:auto;
+	margin-top:166px;
+	}
+#text-area {
+	width:820px;
+	height:auto;
+	margin:auto;
+	}
+#text-area h2 {
+margin-top:4px;
+padding-bottom:28px;
+font-size:18px;
+	}
+#text-area p {
+	font-size:13px;
+	font-family:"Arial";
+	}
+	#copyright {
+		margin-top:650px;
+		color:#FFF;
+		position:absolute;
+		font-size:12px;
+		font-family:"Arial";
+		}
